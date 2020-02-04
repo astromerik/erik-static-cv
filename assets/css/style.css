@@ -1,0 +1,28 @@
+body {
+    background: url("../images/mountains.jpg") no-repeat bottom right fixed;
+    background-size: cover;
+
+}
+
+
+
+/*----Colors---*/
+
+.nav-link {
+    color: black;
+}
+
+
+/*----Navbar---*/
+
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    width: 50px !important;
+    height: 70px !important;
+}
+
+
