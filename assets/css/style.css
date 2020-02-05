@@ -1,23 +1,54 @@
 body {
+    font-family: 'Roboto Mono', monospace;
     background: url("../images/mountains.jpg") no-repeat bottom right fixed;
     background-size: cover;
-
 }
-
-
 
 /*----Colors---*/
 
-.nav-link {
+.navbar li a {
     color: black;
+    background-color: rgb(153, 153, 153);
+    border: 1px solid #000;
 }
 
+#active {
+    background-color: #e28c30;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(226,140,48, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.footer {
+    background-color: rgb(153, 153, 153);
+    color: #e28c30;
+}
+
+.footer i {
+    color: #000;
+}
 
 /*----Navbar---*/
 
+.navbar {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.navbar li a {
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*----Mobile Navbar---*/
 
 .navbar-toggler {
     border: none;
+    margin-right: 0;
 }
 
 .navbar-toggler-icon {
@@ -25,4 +56,24 @@ body {
     height: 70px !important;
 }
 
+@media screen and (max-width:576px) {
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+}
 
+/*----Footer---*/
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    bottom:0;
+    text-align: center;
+}
+
+.footer i {
+    padding-top: 25%;
+}
