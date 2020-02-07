@@ -20,39 +20,65 @@
 	<!--Header-->
 
 	<section>
-		<nav class="navbar navbar-default navbar-expand-sm">
-			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbartogglerheader" aria-controls="navbartogglerheader" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+		<nav class="navbar navbar-default navbar-expand-md">
+			<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbartogglerheader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars hamburger"></i></span>
                 </button>
-			<div class="collapse navbar-collapse" id="navbartogglerheader">
-				<ul class="navbar-nav nav-fill w-100">
-					<li class="nav-item active">
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active justify-">
 						<a class="nav-link" id="active" href="index.html">Home</a>
 						<span class="sr-only">current</span>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="about.html">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Skills</a>
+						<a class="nav-link" href="skills.html">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Projects</a>
+						<a class="nav-link" href="projects.html">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
-			</div>
-		</nav>
+                </div>
+    		</nav>
 	</section>
 
+	<!--main content-->
+
+	<section class="home">
+
+		<h1>Welcome to Erik's Website</h1>
+
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-14">
+					<img class="rounded-circle" height="150" width="150" id="profile-pic"
+						src="assets/images/profile.png" alt="Profile Picture">
+				</div>
+				</div>
+			</div>
+
+			<p>This website was built using HTML5 and CSS3/Bootstrap4</p>
+
+			<div class="inline-block">
+				<i id="html-icon" class="fa fa-html5 fa-3x"></i>
+				<i id="plus-icon" class="fa fa-plus fa-2x"></i>
+				<i id="css-icon" class="fa fa-css3 fa-3x"></i>
+				<i id="plus-icon" class="fa fa-plus fa-2x"></i>
+				<img id="bootstrap-icon" src="assets/images/bootstrap.png" alt="Bootstrap icon">
+            </div>
+
+	</section>
 	<!--Footer-->
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<div class="d-flex justify-content-around">
+					<div class="d-flex justify-content-center">
 						<a class="li-icon" target="_blank" href="#">
 							<i class="fa fa-linkedin fa-2x"></i>
 							<span class="sr-only">LinkedIn</span>
@@ -75,7 +101,7 @@
 		</div>
 	</footer>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
