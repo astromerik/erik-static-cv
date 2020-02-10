@@ -10,6 +10,8 @@ body {
 h2 {
     text-align: center;
     margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 /*----Colours----*/
 
@@ -132,52 +134,61 @@ footer i {
 
 /*-----About----*/
 
-
-ul.timeline {
-    list-style-type: none;
-    position: relative;
-    padding-left: 1.5rem;
+.timeline-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-ul.timeline:before {
-    content: ' ';
-    background: #6e6e6e;
-    display: inline-block;
+.timeline-left {
+    border-right: 2px solid #999999;
+    margin-left: 1px;
+    padding-bottom: 20px;
+}
+
+.timeline-right {
+    border-left: 2px solid #999999;
+    margin-right: 1px;
+    padding-bottom: 20px;
+}
+
+.timeline-item-left:before {
     position: absolute;
-    left: 16px;
-    width: 4px;
-    height: 100%;
-    z-index: 400;
-    border-radius: 1rem;
-}
-
-li.timeline-item {
-    margin: 20px 0;
-    background-color: #999999;
-    opacity: 0.9;
-}
-
-.timeline-arrow {
-    border-top: 0.5rem solid transparent;
-    border-right: 0.5rem solid #6e6e6e;
-    border-bottom: 0.5rem solid transparent;
+    top: 3em;
     display: block;
-    position: absolute;
-    left: 2rem;
 }
 
-li.timeline-item::before {
-    content: ' ';
-    background: #536068;
-    display: inline-block;
+.timeline-item-left:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 0.5em;
     position: absolute;
-    border-radius: 50%;
-    border: 3px solid #e28c30;
-    left: 11px;
-    width: 14px;
-    height: 14px;
-    z-index: 400;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    right: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #e28c30;
+}
+
+.timeline-item-right:before {
+    position: absolute;
+    top: 3em;
+    display: block;
+}
+
+.timeline-item-right:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 0.5em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #e28c30;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
 
 /*-----Skills----*/
@@ -240,7 +251,8 @@ li.timeline-item::before {
     background-color: #999999;
     border: 2px solid black;
     margin-top: 10px;
-    border-radius: 25px;    
+    border-radius: 25px;
+    padding: 5px;    
 }
 
 .media p:hover {
