@@ -1,5 +1,5 @@
-/*----General----*/
 
+/*-------------------------------------General---------------------------------------------*/
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -13,7 +13,12 @@ h2 {
     margin-left: 30px;
     margin-right: 30px;
 }
-/*----Colours----*/
+
+/*-------------------------------------Colours---------------------------------------------*/
+
+.navbar {
+    background-color: #999999;
+}
 
 .navbar li a {
     color: black;
@@ -43,20 +48,106 @@ footer i:hover {
     color: #536068;
 }
 
+.hamburger {
+    color: #e28c30;
+}
+
 #html-icon {
     color: #e34f26
 }
 
-/*----Navbar----*/
-nav {
-margin-top: 20px;
+
+#profile-pic {
+    border: 2px solid #6e6e6e;
 }
+
+.timeline {
+    background-color: rgba(156, 156, 156, 0.5)
+}
+
+.timeline-left {
+    border-right: 2px solid #999999;
+}
+
+.timeline-right {
+    border-left: 2px solid #999999;
+}
+
+.timeline-item-left:after {
+    background: #e28c30;
+}
+
+.timeline-item-right:after {
+    background: #e28c30;
+}
+
+.skills i {
+    background-color: #999999;
+    border: 2px solid black;
+    color: black;
+}
+
+.progress {
+    background-color: #536068;
+}
+
+.skill-box {
+    background-color: #999999; 
+    border: 2px solid black;
+    opacity: 0.9;
+}
+
+.progress-bar {
+    border: 2px solid #536068;
+}
+
+.progress-bar-striped {
+    background-color: #e28c30 !important;
+}
+
+.projects {
+    background-color: rgba(156, 156, 156, 0.5)
+}
+
+.media p {
+    background-color: #999999;
+    border: 2px solid black;
+}
+
+.media p:hover {
+    background-color: #e28c30; 
+}
+
+h6 {
+    background-color: #999999;
+    border: 2px solid black;
+}
+
+.fa-arrow-down {
+    color: #e28c30;
+}
+
+.contact .container {
+    background-color: #999999;
+}
+
+.contact form label {
+    color: black;
+}
+#submit-button {
+background-color: #e28c30;
+color: black;
+}
+
+/*-------------------------------------Navbar---------------------------------------------*/
+
 
 nav li a {
     border-radius: 15px;
+    letter-spacing: 3px;
 }
 
-/*----Mobile Navbar----*/
+/*-------------------------------------Mobile Navbar---------------------------------------------*/
 
 .navbar-toggler {
     border: none;
@@ -64,9 +155,13 @@ nav li a {
 
 .hamburger {
     font-size: 50px;
-    color: #e28c30;
     margin-right: 20px;
     margin-top: 10px;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 5px;
+
 }
 
 @media screen and (max-width:768px) {
@@ -76,7 +171,7 @@ nav li a {
     }
 }
 
-/*----Footer----*/
+/*-------------------------------------Footer---------------------------------------------*/
 
 footer {
     position: fixed;
@@ -93,7 +188,7 @@ footer i {
     margin-left: 20px;
 }
 
-/*----Home----*/
+/*-------------------------------------Home---------------------------------------------*/
 
 .home h1 {
     text-align: center;
@@ -129,24 +224,26 @@ footer i {
 
 #profile-pic {
     margin-top: 20px;
-    border: 2px solid #6e6e6e;
 }
 
-/*-----About----*/
+/*-------------------------------------About---------------------------------------------*/
 
-.timeline-section {
+.timeline {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
+.timeline-heading {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
 .timeline-left {
-    border-right: 2px solid #999999;
     margin-left: 1px;
     padding-bottom: 20px;
 }
 
 .timeline-right {
-    border-left: 2px solid #999999;
     margin-right: 1px;
     padding-bottom: 20px;
 }
@@ -166,7 +263,6 @@ footer i {
     right: -6px;
     border-radius: 12px;
     content: '';
-    background: #e28c30;
 }
 
 .timeline-item-right:before {
@@ -184,36 +280,27 @@ footer i {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #e28c30;
 }
 
 .history-items {
     margin-bottom: 30px;
 }
 
-/*-----Skills----*/
+/*-------------------------------------Skills---------------------------------------------*/
 
 .skills {
     margin-bottom: 100px;
 }
 
 .skills i {
-    background-color: #999999;
     padding: 7px;
-    border: 2px solid black;
     border-radius: 15px;
-    color: black;
 }
 
 .progress {
     margin-bottom: 20px;
     margin-top: 10px;
     width: 100%;
-    background-color: #536068;
-}
-
-.progress-bar {
-    border: 2px solid #536068;
 }
 
 #progress-container {
@@ -223,9 +310,6 @@ footer i {
 .skill-box {
     min-width: 100%;
     min-height: 100%;
-    background-color: #999999; 
-    border: 2px solid black;
-    opacity: 0.9;
     border-radius: 15px;
 }
 
@@ -233,14 +317,15 @@ footer i {
     padding: 20px; 
 }
 
-.progress-bar-striped {
-    background-color: #e28c30 !important;
+/*-------------------------------------Projects---------------------------------------------*/
+
+.projects {
+    margin-top: 100px;
 }
 
-/*-----Project----*/
-
-.project-images {
-    margin-top: 100px;
+.projects-heading {
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 .media {
@@ -248,18 +333,29 @@ footer i {
 }
 
 .media p {
-    background-color: #999999;
-    border: 2px solid black;
     margin-top: 10px;
     border-radius: 25px;
     padding: 5px;    
 }
 
-.media p:hover {
-    background-color: #e28c30; 
+.arrow {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
-/*-----Contact----*/
+h6 {
+    text-align: center;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0 25%;
+    font-style: italic;
+}
+
+.fa-arrow-down {
+    margin-top: 20px;
+}
+/*-------------------------------------Contact---------------------------------------------*/
 
 .contact {
     margin-bottom: 100px;
@@ -273,7 +369,6 @@ footer i {
 }
 .contact .container {
     width: 75%;
-    background-color: #999999;
     padding-bottom: 10px;
     padding-top: 10px;
     border-radius: 20px;
@@ -282,13 +377,4 @@ footer i {
 
 .form-group {
 margin-bottom: 30px;
-}
-
-.contact form label {
-    color: black;
-}
-
-#submit-button {
-background-color: #e28c30;
-color: black;
 }
