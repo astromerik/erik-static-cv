@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background: #323a53;
+    background: #213458;
     background-size: cover;
 }
 
@@ -16,7 +16,7 @@ h2 {
 /*-------------------------------------Colours---------------------------------------------*/
 
 .navbar {
-    background-color: #323a53;
+    background-color: #213458;
 }
 
 .navbar li a {
@@ -24,16 +24,12 @@ h2 {
 
 }
 
-#active {
-    background-color: #cc7722;
-}
-
 nav li a:hover {
     background-color: #536068;
 }
 
 footer {
-    background-color: #323a53;
+    background-color: #213458;
     color: #cc7722;
     z-index: 400;
 }
@@ -51,13 +47,17 @@ footer i:hover {
 }
 
 .home {
-    background-color: #323a53;
+    background-color: #213458;
     color: rgba(245, 245, 245, 0.856);
 }
 
 
 #profile-pic {
-    border: 2px solid #323a53;
+    border: 2px solid #213458;
+}
+
+#profile-pic:hover {
+    -ms-grid-layer: rgba(245, 245, 245, 0.856);
 }
 
 .timeline {
@@ -65,11 +65,19 @@ footer i:hover {
 }
 
 .timeline-left {
-    border-right: 2px solid rgba(245, 245, 245, 0.856);
+    border-right: 2px solid black;
 }
 
 .timeline-right {
-    border-left: 2px solid rgba(245, 245, 245, 0.856);
+    border-left: 2px solid black;
+}
+
+.timeline-item-left h4 {
+    border-bottom: 2px solid #cc7722;
+}
+
+.timeline-item-right h4 {
+    border-bottom: 2px solid #cc7722;
 }
 
 .timeline-item-left:after {
@@ -124,11 +132,11 @@ footer i:hover {
 }
 
 .contact {
-    color: rgba(245, 245, 245, 0.856);
+    color: rgba(202, 202, 202, 0.856);
 }
 
 .contact .container {
-    background-color: #999999;
+    background-color: rgba(202, 202, 202, 0.856);
 }
 
 .contact form label {
@@ -141,6 +149,15 @@ color: black;
 
 /*-------------------------------------Navbar---------------------------------------------*/
 
+.collapse .navbar-collapse {
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 70px;
+
+}
 
 nav li a {
     letter-spacing: 3px;
@@ -150,6 +167,9 @@ nav li a {
 
 .navbar-toggler {
     border: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 .hamburger {
@@ -256,9 +276,9 @@ footer i {
     width: 12px;
     height: 12px;
     display: block;
-    top: 0.5em;
+    top: 1.4em;
     position: absolute;
-    right: -6px;
+    right: -7px;
     border-radius: 12px;
     content: '';
 }
@@ -273,9 +293,9 @@ footer i {
     width: 12px;
     height: 12px;
     display: block;
-    top: 0.5em;
+    top: 1.4em;
     position: absolute;
-    left: -6px;
+    left: -7px;
     border-radius: 12px;
     content: '';
 }
@@ -336,10 +356,10 @@ footer i {
     padding: 5px;    
 }
 
-.arrow {
+.project-github {
     margin-top: 30px;
-    margin-bottom: 100px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 h6 {
@@ -349,7 +369,7 @@ h6 {
     font-style: italic;
 }
 
-.fa-arrow-down {
+.github-icon {
     margin-top: 20px;
 }
 /*-------------------------------------Contact---------------------------------------------*/
@@ -359,11 +379,11 @@ h6 {
     opacity: 0.9;
 }
 
-.contact h2 {
-    margin-top: 100px;
-    margin-bottom: 40px;
-    text-align: center;
+.contact-heading {
+    padding-top: 70px;
+    margin-bottom: 50px;
 }
+
 .contact .container {
     width: 75%;
     padding-bottom: 10px;
