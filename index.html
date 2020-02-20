@@ -12,14 +12,14 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
 		type="text/css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-	<title>Erik' Web Page</title>
+	<title>Erik' Website</title>
 </head>
 
 <body>
 
-<!-------------------------------------------Header------------------------------------------->
+<!-- ========================Header====================== -->
 
-	<section>
+	<header class="header" id="header">
 		<nav class="navbar navbar-default navbar-expand-md justify-content-center fixed-top">
         <a class="navbar-brand" href="#">
           <img src="assets/images/milestonelogo1.png" alt="">
@@ -48,38 +48,38 @@
 				</ul>
 			</div>
 		</nav>
-	</section>
+	</header>
 
-<!-------------------------------------------Home------------------------------------------->
+<!-- ========================Home====================== -->
 
 	<section class="home" id="home">
-
+        <div class="container">
 		<h1>Welcome to Erik's Website</h1>
 
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-14">
-					<img class="rounded-circle" height="300" width="" id="profile-pic"
+					<img class="rounded-circle" height="300" width="300" id="profile-pic"
 						src="assets/images/profile.png" alt="Profile Picture">
 				</div>
 				</div>
 			</div>
 			<p>This website was built using HTML5 and CSS3/Bootstrap4</p>
 			<div class="inline-block">
-				<i id="html-icon" class="fab fa-html5 fa-3x"></i>
-				<i id="plus-icon" class="fa fa-plus fa-2x"></i>
-				<i id="css-icon" class="fab fa-css3 fa-3x"></i>
-				<i id="plus-icon" class="fa fa-plus fa-2x"></i>
-				<i id="bootstrap-icon" class="fab fa-bootstrap fa-3x"></i>
-
+				<i class="fab fa-html5 fa-3x"></i>
+				<i class="fa fa-plus fa-2x"></i>
+				<i class="fab fa-css3 fa-3x"></i>
+				<i class="fa fa-plus fa-2x"></i>
+				<i class="fab fa-bootstrap fa-3x"></i>
+</div>
 			</div>
 	</section>
 
-<!-------------------------------------------About------------------------------------------->
-
+<!-- ========================About====================== -->
+    
 	<section class="timeline" id="about">
+    <div class="container">
 		<h2 class="timeline-heading">From Banker to Developer...</h2>
-		<div class="container container-fluid">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row">
@@ -158,17 +158,24 @@
 					</div>
 				</div>
 			</div>
+            <div class="sub-link">
+			<h6>Want to know more about my history? Download my CV!</h6>
+			<a class="gi-icon" target="_blank" href="#">
+				<i class="fas fa-file-download fa-2x sub-icon"></i>
+				<span class="sr-only">Download CV</span>
+			</a>
 		</div>
+            </div>
 	</section>
 
-<!-------------------------------------------Skills------------------------------------------->
+<!-- ========================Skills====================== -->
 
 	<section class="skills" id="skills">
-		<h2 class="skills-heading">What Can Erik Do?</h2>
-
-		<div class="container container-fluid" id="progress-container">
+    <div class="container">
+		<h2 class="skills-heading">What Can I Do?</h2>
 			<div class="row">
-				<div class="col-md-6" id="progress-section">
+				<div class="col-md-6 skills-box">
+                    <h4 class="skills-sub-header">Languages/Technologies</h4>
 					<div class="col-md-12">
 						<a href="https://en.wikipedia.org/wiki/HTML" target="_blank"><i class="fab fa-html5"> HTML</i>
 							<span class="sr-only">HTML</span></a>
@@ -224,8 +231,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="skill-box">
+				<div class="col-md-6 skills-box">
+                <h4 class="skills-sub-header">What is good UX to me?</h4>
+					<div class="good-ux-box">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non quaerat temporibus corrupti
 							vitae,
 							ad facilis provident reprehenderit distinctio consequuntur voluptates dolor assumenda
@@ -234,21 +242,21 @@
 					</div>
 				</div>
 			</div>
-		</div>
+</div>
 	</section>
 
-<!-------------------------------------------Projects------------------------------------------->
+<!-- ========================Projects====================== -->
 
 
 	<section class="projects" id="projects">
-		<h2 class="projects-heading">Take a Look at Erik's Projects</h2>
-		<div class="container">
-			<div class="row justify-content-around">
+    <div class="container">
+		<h2 class="projects-heading">Take a Look at Some of My Projects</h2>
+			<div class="row justify-content-between">
 				<div class="col-md-3 col-12 md-center">
 					<div class="media">
 						<div class="d-block mx-auto mx-md-0 text-center">
 							<button type="button" class="btn dtn-default" data-toggle="modal" data-target="#Modal1">
-                            <img src="assets/images/facerec.jpg" class="rounded-circle" height="200" width="200">
+                            <img src="assets/images/facerec.jpg" class="rounded-circle" height="200" width="200" alt="Project 1 Image">
                             <p class="text-center">Face Recognition Using JavaScript</p>
                             </button>
 						</div>
@@ -258,7 +266,7 @@
 					<div class="media">
 						<div class="d-block mx-auto mx-md-0 text-center">
 							<button type="button" class="btn dtn-default" data-toggle="modal" data-target="#Modal2">
-                            <img src="assets/images/htmlpic.jpg" class="rounded-circle" height="200" width="200">
+                            <img src="assets/images/htmlpic.jpg" class="rounded-circle" height="200" width="200" alt="Project 2 Image">
                             <p class="text-center">Responsive Website Using HTML5 & CSS3</p>
                             </button>
 						</div>
@@ -268,30 +276,29 @@
 					<div class="media">
 						<div class="d-block mx-auto mx-md-0 text-center">
 							<button type="button" class="btn dtn-default" data-toggle="modal" data-target="#Modal3">
-                            <img src="assets/images/swiftpic.png" class="rounded-circle" height="200" width="200">
+                            <img src="assets/images/swiftpic.png" class="rounded-circle" height="200" width="200" alt="Project 3 Image">
                             <p class="text-center">Navigation App For IOS Using Swift</p>
                             </button>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="project-github">
-			<h6>Or click on the GitHub icon to see all Erik's projects</h6>
+		<div class="sub-link">
+			<h6>Or click on the GitHub icon to see all my projects</h6>
 			<a class="gi-icon" target="_blank" href="https://github.com/astromerik?tab=repositories">
-				<i class="fab fa-github fa-2x github-icon"></i>
+				<i class="fab fa-github fa-2x sub-icon"></i>
 				<span class="sr-only">GitHub</span>
 			</a>
 		</div>
 
-		<!-- Modal project 1 -->
+<!-- ========================Modal project 1 ====================== -->
 
-		<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		<div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel1"
 			aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
+						<h5 class="modal-title" id="ModalLable1">Face Recognition Using JavaScript</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -302,21 +309,21 @@
 						minima exercitationem culpa.
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">View Code!</button>
+						<button type="button" class="btn btn-primary"><a href="">View Code!</a></button>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- Modal project 2 -->
+<!-- ========================Modal project 2 ====================== -->
 
-		<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		<div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel2"
 			aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
+						<h5 class="modal-title" id="ModalLable2">Responsive Website Using HTML5 & CSS3</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -327,21 +334,21 @@
 						voluptate, quibusdam aperiam autem pariatur ipsam?
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">View Code!</button>
+						<button type="button" class="btn btn-primary"><a href="">View Code!</a></button>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- Modal project 3 -->
+<!-- ======================== Modal project 3 ====================== -->
 
-		<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		<div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel3"
 			aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Project 3</h5>
+						<h5 class="modal-title" id="ModalLable3">Navigation App For IOS Using Swift</h5>
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
@@ -352,58 +359,57 @@
 						aliquid voluptas modi atque. Beatae, corrupti omnis.
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-primary">View Code!</button>
+						<button type="button" class="btn btn-primary"><a href="">View Code!</a></button>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					</div>
 				</div>
 			</div>
 		</div>
+        </div>
 	</section>
 
-
-<!-------------------------------------------Contact------------------------------------------->
+<!-- ========================Contact====================== -->
 
 	<section class="contact" id="contact">
-		<h2 class="contact-heading">Fill in this form to get in contact with Erik!</h2>
-		<div class="container">
-			<form>
+        <div class="container">
+		<h2 class="contact-heading">Want to get in contact with me? Fill in this form!</h2>
+			<form class="contact-form">
 				<div class="form-group">
 					<label for="exampleFormControlInput1">Name</label>
-					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+					<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name" required>
                 </div>
 					<div class="form-group">
-						<label for="exampleFormControlInput1">Phone Number</label>
-						<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+						<label for="exampleFormControlInput2">Phone Number</label>
+						<input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="exampleFormControlInput3">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com" required>
                     </div>
 					<div class="form-group">
-								<label for="exampleFormControlSelect1">Subject of question</label>
-								<select class="form-control" id="exampleFormControlSelect1">
-                        <option>Job Related</option>
-                        <option>Code Specific</option>
-                        <option>Content Specific</option>
-                        <option>Other</option>
-                    </select>
-							</div>
-							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Describe whats on your mind</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-							</div>
-			<button type="button" class="btn btn-secondary btn-lg btn-block" id="submit-button">Submit</button>
+						<label for="exampleFormControlSelect1">Subject of question</label>
+						<select class="form-control" id="exampleFormControlSelect1">
+                            <option>Job Related</option>
+                            <option>Code Specific</option>
+                            <option>Content Specific</option>
+                            <option>Other</option>
+                        </select>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Describe whats on your mind</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+			<button type="submit" class="btn btn-secondary btn-lg btn-block" id="submit-button">Submit</button>
 			</form>
-			<div>
+            </div>
 	</section>
 
-<!-------------------------------------------Footer------------------------------------------->
+<!-- ========================Footer====================== -->
 	<footer>
-		<div class="container" id="container-timeline">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="d-flex justify-content-around">
-						<a class="gi-icon" target="_blank" href="#">
+						<a class="tw-icon" target="_blank" href="https://twitter.com/eeriast">
 							<i class="fab fa-twitter fa-2x"></i>
 							<span class="sr-only">Twitter</span>
 						</a>
@@ -415,14 +421,13 @@
 							<i class="fab fa-github fa-2x"></i>
 							<span class="sr-only">GitHub</span>
 						</a>
-						<a class="sl-icon" target="_blank" href="#">
+						<a class="sl-icon" target="_blank" href="https://slack.com/intl/en-se/">
 							<i class="fab fa-slack fa-2x"></i>
 							<span class="sr-only">Slack</span>
 						</a>
 					</div>
 				</div>
 			</div>
-		</div>
 	</footer>
 
 	

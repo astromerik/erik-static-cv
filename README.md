@@ -61,7 +61,8 @@ Link to first draft of mockups: [Click Here](Mockups/my_web_page.pdf)
 
 ## Features
 
-To be added 
+The transparent navigation bar can be found on every page on the site. The navigation bar dissapars and turn into a "Hamburger menu" if the visitor uses a smaller device sush as a smartphone. 
+
 ...
 
 ### Existing Features
