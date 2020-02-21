@@ -152,7 +152,7 @@ footer i:hover {
 
 /*-- Projects --*/
 
-.media .btn:hover {
+.project .btn:hover {
     background-color: #cc7722; 
 }
 
@@ -346,13 +346,25 @@ footer i {
 
 /*-------------------------------------Projects---------------------------------------------*/
 
+.project {
+    margin-bottom: 3rem;
+}
+
 .project-box {   
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     border-radius:50%;
-    width: 100%;
-    padding-bottom: 100%;
+    width: 50%;
+    padding-bottom: 50%;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .box1, .box2, .box3 {
+        width: 100%;
+        padding-bottom: 100%;
+    }
 }
 
 .box1 {
@@ -365,14 +377,6 @@ footer i {
 
 .box3 {
         background-image: url(../images/swiftpic.png);
-}
-
-.media {
-    margin-bottom: 50px;
-}
-
-.media img {
-    margin-bottom: 10px;   
 }
 
 .project-name {
