@@ -227,7 +227,8 @@ footer {
     height: 50px;
     left: 0;
     bottom: 0;
-    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 footer i {
