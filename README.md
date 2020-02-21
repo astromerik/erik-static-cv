@@ -73,28 +73,68 @@ However, the Slack-logo takes the user to Slacks main page since one need to lin
 
 #### Home
 
-The home page is the most simpel page on the website. It contains a welcome message, a profile picture and a short scentence of how this website was built (including the icons for each language/library).
-The home page is responsive even thoug the profile picture is set to a fixed size. 
-The home page have a background color which correspond with 
+The home section is the most simpel section on the website. It contains a welcome message, a profile picture and a short scentence of how this website was built (including the icons for each language/library).
+The home section is responsive even thoug the profile picture is set to a fixed size. The home section does not change in terms of content between larger and smaller screen sizes.
+The home section have a background color which correspond with both the navbar and the footer, thus taking advantage of these element's coverage. 
+
+#### About
+
+The about section have a lighter, gray, background colour to clearly show a section break from the home section. 
+The about section mainly consists of a timeline of my previous work/education history. 
+Beneth the timeline there is a paragraph and a button for downloading a more exstensive CV. 
+
+#### Skills
+
+The skill section goes back to the blue background to invite the user to the new section. Within the skills section, two different boxes can be found. 
+The left box is giving a high level (and subjective) degree of knowledge regarding different languages and technologies. This is presented in form of bars. 
+The right section is describing what I believe is good UX. This to give the user a better understanding of my ground pillars in developing apps/websites.
+
+The two boxes are responsive and on smaller screen sizes they are stacked on top of each other.
+
+#### Projects
+
+When we come to the project section, we also comes back to the grey background colour. 
+The section is presenting three different projects (two of them fictional at the moment). The projects are presented with a picture and a text. When hovering over the text, the background turns orange. 
+However, both the picture and the text act as buttons and when clicking them a modal for the specific project pops up. 
+In the modal, the project is breifly presented and the reader have the option to either push a button named "view the code", which will take the user to the GitHub repository or click the button "Close" and leave the modal.
+
+The pictures are responsive and on smaller screen sizes they are stacked on top of each other. 
+
+Below the projects, there is a GitHub icon were the user can click and be linked to all of my GitHub repositories. 
+
+#### Contact
+
+At the end of the page we find a contact form which is covered by a blue background. 
+The contact form requires the user to fill in name and email address. Phone number, subject of the question and the text box is optional. 
+At the end of the form there is a submit-button, which in the near future will make the form functional (adding JavaScript is required). 
 
 ...
 
 ### Existing Features
 
-To be added
+* Header logotype - When logotype is clicked, the user will come back (up) to the home section.
+* Navigation bar - The user is able to easily navigate between the sections by clicking one of the options.
+* Footer icons - The footer icons will take the user to my social media pages by clicking on them. 
+* About section - contains a button with direct link to my cv. 
+* Project section - contains modals for all projects which includes links to view the code. A GitHub icon with link to my all of my repositories is located at the bottom of the section.
+* Contact section - contains a contact form for users who want to get in contact with me (no conection at the moment) 
+
 ...
 
 ### Features Left to Implement
 
-Visual effects etc. (JavaScript)
-Email-functionality, database for form 
+* Visual effects for the navbar, both in collapsed and non-collapsed mode. In collapsed mode (smaller screen sizes), the navbar should automatically dissapear when a section has been choosen. 
+On bigger screens, the navbar should highlight which section the user is currently on. JavaScript is needed to implement these features.
+* Email-functionality for contact form 
 ...
 
 ## Technologies Used
 
-HTML5 
-CSS3
-Bootstrap4
+* The website is build in HTML5 & CSS3
+* The website was developed using GitPod as IDE. 
+* Bootstrap4 has been used to easily make the website structured and responsive.
+* Icons through out the website been collected from FontAwesome 
+* The fonts used on the website is collected through Google Fonts. 
 ...
 
 ## Testing 
@@ -104,12 +144,19 @@ HTML and CSS Validator
 
 ## Deployment
 
-GitHub pages
+As previously mentioned, the website was build using GitPod as IDE. The Website has been pushed to GitHub through the GitPod terminal. 
+GitHub pages. 
 ...
 
 ## Credits
 
-To Be added
+### Content
+
+### Media
+
+### Code
+
+* CSS code for the "dots" on the timeline in the About section was taken from Code Institutes "Resumé Mini Project" - but has been modify for this website. 
 
 ### Content
 ...
