@@ -20,6 +20,13 @@ h2 {
     padding-top: 80px; 
 }
 
+h6 {
+    text-align: center;
+    padding: 0;
+    margin: 0 25%;
+    font-style: italic;
+}
+
 section {
     padding-bottom: 50px;
 }
@@ -65,7 +72,7 @@ footer i {
 }
 
 footer i:hover {
-    color: #536068;
+    color: #cc7722;
 }
 
 /*-- Home --*/
@@ -105,9 +112,17 @@ footer i:hover {
     color: #cc7722;
 }
 
+.sub-icon:hover{
+    color: #213458;
+}
+
 /*-- Skills --*/
 
 .skills-heading {
+    color: rgba(245, 245, 245, 0.856);
+}
+
+.skills-sub-header {
     color: rgba(245, 245, 245, 0.856);
 }
 
@@ -175,6 +190,12 @@ nav li a {
     letter-spacing: 3px;
 }
 
+@media (min-width: 768px) {
+    .navbar-expand-md .navbar-collapse {
+        padding-right: 70px;
+    }
+}
+
 /*-------------------------------------Mobile Navbar---------------------------------------------*/
 
 .navbar-toggler {
@@ -227,6 +248,7 @@ footer i {
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    margin-left: 10px;
 }
 
 .inline-block i {
@@ -294,8 +316,7 @@ footer i {
 
 .skills-sub-header {
     text-align: center;
-    color: rgba(245, 245, 245, 0.856);
-    margin: 40px 0;
+    margin-bottom: 40px;
 }
 
 .skills i {
@@ -338,7 +359,6 @@ footer i {
     }
 }
 
-
 .media {
     margin-bottom: 50px;
 }
@@ -349,13 +369,6 @@ footer i {
 
 .project-name {
     display: inline-block;
-}
-
-h6 {
-    text-align: center;
-    padding: 0;
-    margin: 0 25%;
-    font-style: italic;
 }
 
 /*-------------------------------------Contact---------------------------------------------*/
