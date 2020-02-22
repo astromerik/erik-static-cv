@@ -11,6 +11,15 @@
 A portfolio website whit focus on good UX design. 
 The website, which is a single page website includes a welcome section, an about section, an skills section, an project section and a contact section. 
 
+The main purpose of this website is threefolded. 
+Firstly, since the webpage is a portfolio/resume page I wanted it to reflect my personality and my idea of good UX. In other words, a website that I would like to spend some time on. 
+It should be easy for me to handle contact information from users who want to come in contact with me. 
+Secondly, the website is mainly aimed towards recruiters and potential employers, thus, the web site must be intuitive and easy to navigate through. 
+It should provide all the neccesary information to understand what I can accomplish and how I am as a developer. 
+Lastly, This wep page is supposed to develop along with me. 
+This means that it will be written in clean code, available for additional languages to be inserted (for example JavaScript). 
+This also means that the content on the page prefferably will be scaled downed to provide a clean look and also be more easely maintained in future development/changes. 
+
 
 The developers goal of this website are:
 * Branding himself
@@ -52,15 +61,13 @@ and/or
 6. As a potential employer, I want a deeper understanding of what Erik can contribute to my business with (both in terms of personallity and skills)
 7. As a recruiter or potential employer, I want to know what Erik believe is good UX design
 
-
-The main purpose of this website is threefolded. Firstly, since the webpage is a portfolio/resume page I wanted it to reflect my personality and my idea of good UX. In other words, a website that I would like to spend some time on. 
-It should be easy for me to handle contact information from users who want to come in contact with me. 
-Secondly, the website is mainly aimed towards recruiters and potential emplyers, thus, the web site must be intuitive and easy to navigate on. It should provide all the neccesary information to understand what I can accomplish and how I am as a developer. 
-Lastly, This wep page is supposed to develop along with me. This means that it will be written in clean code, available for additional languages to be inserted (for example JavaScript). This also means that the content on the page prefferably will be scaled downed to provide a clean look and also be more easely managed in future development/changes. 
-
 #### Balsamiq mockups:
 
-Link to first draft of mockups: [Click Here](assets/Mockups/my_web_page.pdf)
+
+Click <a href="assets/Mockups/My_web_page.pdf" target="_blank">Here</a> to view the initial wireframes created for this website.
+
+The above PDF file include wireframes for the following pages for larger screens and mobile devices: 
+
 * Home
 * About
 * Skills
