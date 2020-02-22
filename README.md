@@ -1,6 +1,10 @@
-# Erik's Portfolio website
+<h1 align="center">
+![Header Logotype](assets/images/milestonelogo1.png =100*100)![Header Logotype](assets/images/milestonelogo1.png =100*100)
+</h1>
 
+<div align="center">
 [View this website on GitHub Pages](https://astromerik.github.io/milestone1/) 
+</div>
 
 A portfolio website whit focus on good UX design. 
 The website, which is a single page website includes a welcome section, an about section, an skills section, an project section and a contact section. 
@@ -131,7 +135,7 @@ On bigger screens, the navbar should highlight which section the user is current
 * [Bootstrap4](https://getbootstrap.com/) has been used to easily make the website structured and responsive.
 * Icons through out the website been collected from [FontAwesome](https://fontawesome.com/start). 
 * The fonts used on the website were collected through [Google Fonts](https://fonts.google.com/). 
-* The header logotype ![Header Logotype](assets/images/milestonelogo1.png) were created using [Hatchful](https://hatchful.shopify.com/).
+* The header logotype were created using [Hatchful](https://hatchful.shopify.com/).
 * [W3C's HTLM Validator](https://validator.w3.org/) were used to validate the websites HTML code. 
 * [W3C's CSS Validator](https://validator.w3.org/) were used to validate the websites CSS code. 
 
