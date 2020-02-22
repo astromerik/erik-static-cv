@@ -1,8 +1,10 @@
 <h1 align="center">
-![Header Logotype](assets/images/milestonelogo1.png =100*100)![Header Logotype](assets/images/milestonelogo1.png =100*100)
+
+<a href="https://astromerik.github.io/milestone1/" target="_blank"> <img src="assets/images/milestonelogo1.png" alt="Erik logo"></a>  
 </h1>
 
 <div align="center">
+
 [View this website on GitHub Pages](https://astromerik.github.io/milestone1/) 
 </div>
 
