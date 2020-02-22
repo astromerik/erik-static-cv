@@ -2,8 +2,8 @@
 
 [View this website on GitHub Pages](https://astromerik.github.io/milestone1/) 
 
-A portfolio website whit focus on good UX design. The website, which is a single page website includes a welcome section, an about section, an skills section, an project section and a contact section. 
-
+A portfolio website whit focus on good UX design. 
+The website, which is a single page website includes a welcome section, an about section, an skills section, an project section and a contact section. 
 
 
 The developers goal of this website are:
@@ -13,9 +13,9 @@ The developers goal of this website are:
 * Recieve project/job proposals 
 
 The visitors goal of this website are:
-* Finding a skilled software developer
-* Find proof of concepts
-* Easily get in contact with developer if interested
+* Find a skilled software developer
+* Find proof of concepts (i.e. proof of programming skills)
+* Easily get in contact with the developer if they are interested
 
 ## UX
 
@@ -38,13 +38,13 @@ and/or
 
 
 #### User stories
-* As a new visitor to the website, I want it to be easy to navigate through the website 
-* As a new visitor, I want it to be easy to contact Erik 
-* As a returning visitor to the website, I want news regarding Erik's employement and projects  
-* As a recruiter without technological/programming knowledge, I want to get a high level picture of Erik's background, personality and knowledge
-* As a recruiter with technological/programming knowledge, I want proof of concept, thus, access to the source code
-* As a potential employer, I want a deeper understanding of what Erik can contribute to my business with (both in terms of personallity and skills)
-* As a recruiter or potential employer, I want to know what Erik believe is good UX design
+1. As a new visitor to the website, I want it to be easy to navigate through the website 
+2. As a new visitor, I want it to be easy to contact Erik 
+3. As a returning visitor to the website, I want news regarding Erik's employement and projects  
+4. As a recruiter without technological/programming knowledge, I want to get a high level picture of Erik's background, personality and knowledge
+5. As a recruiter with technological/programming knowledge, I want proof of concept, thus, access to the source code
+6. As a potential employer, I want a deeper understanding of what Erik can contribute to my business with (both in terms of personallity and skills)
+7. As a recruiter or potential employer, I want to know what Erik believe is good UX design
 
 
 The main purpose of this website is threefolded. Firstly, since the webpage is a portfolio/resume page I wanted it to reflect my personality and my idea of good UX. In other words, a website that I would like to spend some time on. 
@@ -108,8 +108,6 @@ At the end of the page we find a contact form which is covered by a blue backgro
 The contact form requires the user to fill in name and email address. Phone number, subject of the question and the text box is optional. 
 At the end of the form there is a submit-button, which in the near future will make the form functional (adding JavaScript is required). 
 
-...
-
 ### Existing Features
 
 * Header logotype - When logotype is clicked, the user will come back (up) to the home section.
@@ -117,49 +115,53 @@ At the end of the form there is a submit-button, which in the near future will m
 * Footer icons - The footer icons will take the user to my social media pages by clicking on them. 
 * About section - contains a button with direct link to my cv. 
 * Project section - contains modals for all projects which includes links to view the code. A GitHub icon with link to my all of my repositories is located at the bottom of the section.
-* Contact section - contains a contact form for users who want to get in contact with me (no conection at the moment) 
-
-...
+* Contact section - contains a contact form for users who want to get in contact with me (no conection at the moment). 
 
 ### Features Left to Implement
 
 * Visual effects for the navbar, both in collapsed and non-collapsed mode. In collapsed mode (smaller screen sizes), the navbar should automatically dissapear when a section has been choosen. 
 On bigger screens, the navbar should highlight which section the user is currently on. JavaScript is needed to implement these features.
-* Email-functionality for contact form 
-...
+* Email-functionality for contact form. 
+
 
 ## Technologies Used
 
-* The website is build in HTML5 & CSS3
-* The website was developed using GitPod as IDE. 
-* Bootstrap4 has been used to easily make the website structured and responsive.
-* Icons through out the website been collected from FontAwesome 
-* The fonts used on the website is collected through Google Fonts. 
-...
+* The website were build using HTML5 & CSS3.
+* The website were developed using [GitPod](https://www.gitpod.io/) as IDE. 
+* [Bootstrap4](https://getbootstrap.com/) has been used to easily make the website structured and responsive.
+* Icons through out the website been collected from [FontAwesome](https://fontawesome.com/start). 
+* The fonts used on the website were collected through [Google Fonts](https://fonts.google.com/). 
+* The header logotype ![Header Logotype](assets/images/milestonelogo1.png) were created using [Hatchful](https://hatchful.shopify.com/).
+* [W3C's HTLM Validator](https://validator.w3.org/) were used to validate the websites HTML code. 
+* [W3C's CSS Validator](https://validator.w3.org/) were used to validate the websites CSS code. 
+
 
 ## Testing 
 
 HTML and CSS Validator
-...
+
 
 ## Deployment
 
 As previously mentioned, the website was build using GitPod as IDE. The Website has been pushed to GitHub through the GitPod terminal. 
 GitHub pages. 
-...
 
 ## Credits
 
 ### Content
 
+* My fellow students at Code Institude gave a second oppinion of the content and design of the website. 
+
 ### Media
+
+* The image on the front page were obtained from [Erik's LinkedIn page](https://www.linkedin.com/in/erik-%C3%A5str%C3%B6m/) and originally captured by [Valcon](https://valcon.com/)
+* The images for the Project section were obtained through [Freepik](https://www.freepik.com/) and Shutterstock(https://www.shutterstock.com/home).
+* All icons on the website were obtained from FontAwesome(https://fontawesome.com/start)
 
 ### Code
 
-* CSS code for the "dots" on the timeline in the About section was taken from Code Institutes "Resumé Mini Project" - but has been modify for this website. 
+* CSS code for the "dots" on the timeline in the About section were taken from Code Institutes "Resumé Mini Project" - but has been modify for this website. 
 
-### Content
-...
-### Media
-...
 ### Acknowledgements 
+
+* The structure and content of this ReadMe file were inspired by the structure and content of the project [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) created by Anna Gilhespy.
