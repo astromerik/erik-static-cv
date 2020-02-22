@@ -64,7 +64,7 @@ and/or
 #### Balsamiq mockups:
 
 
-Click <a href="assets/Mockups/My_web_page.pdf" target="_blank">Here</a> to view the initial wireframes created for this website.
+Click <a href="assets/Mockups/mockups.pdf" target="_blank">Here</a> to view the initial wireframes created for this website.
 
 The above PDF file include wireframes for the following pages for larger screens and mobile devices: 
 
@@ -100,7 +100,9 @@ Beneth the timeline there is a paragraph and a button for downloading a more exs
 
 The skill section goes back to the blue background to invite the user to the new section. Within the skills section, two different boxes can be found. 
 The left box is giving a high level (and subjective) degree of knowledge regarding different languages and technologies. This is presented in form of bars. 
+All logotypes of the different technologies/languages are clickable and will take the user the [Wikipedia page](https://www.wikipedia.org/) of the specific language/technology. 
 The right section is describing what I believe is good UX. This to give the user a better understanding of my ground pillars in developing apps/websites.
+
 
 The two boxes are responsive and on smaller screen sizes they are stacked on top of each other.
 
