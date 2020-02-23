@@ -150,15 +150,15 @@ On bigger screens, the navbar should highlight which section the user is current
 * [W3C's HTLM Validator](https://validator.w3.org/) were used to validate the websites HTML code. 
 * [W3C's CSS Validator](https://validator.w3.org/) were used to validate the websites CSS code. 
 
-
 ## Testing 
 
 See [Testing.md](#) for testing done on the website. 
 
 ## Deployment
 
-As previously mentioned, the website was build using GitPod as IDE. The Website has been pushed to GitHub through the GitPod terminal. 
-GitHub pages. 
+As previously mentioned, the website was build using GitPod as IDE. The code has been pushed to GitHub through the GitPod terminal. 
+See on top of this page for the commits made in the IDE to follow the progress of building the website. 
+After the code has been pushed to GitHub, a live version of the page were deployed using GitHub Pages. 
 
 ## Credits
 
