@@ -257,6 +257,13 @@ footer i {
     margin-right: 20px;
 }
 
+@media screen and (max-width: 375px) {
+    .inline-block i {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 .fa-plus {
     margin-top: 10px;
 }

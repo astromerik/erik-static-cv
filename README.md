@@ -153,8 +153,7 @@ On bigger screens, the navbar should highlight which section the user is current
 
 ## Testing 
 
-HTML and CSS Validator
-
+See [Testing.md](#) for testing done on the website. 
 
 ## Deployment
 
@@ -166,6 +165,7 @@ GitHub pages.
 ### Content
 
 * My fellow students at Code Institude gave a second oppinion of the content and design of the website. 
+* My sister, Elin Åström, helped me with proof reading the text on the website. 
 
 ### Media
 
@@ -180,3 +180,4 @@ GitHub pages.
 ### Acknowledgements 
 
 * The structure and content of this ReadMe file were inspired by the structure and content of the project [Portrait Artist](https://github.com/AJGreaves/portrait-artist/blob/master/README.md) created by Anna Gilhespy.
+* My mentor Brian Macharia provided me with valuable feedback regarding the sites design. 
