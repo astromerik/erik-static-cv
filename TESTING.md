@@ -1,6 +1,6 @@
 <div align="center">
 
-[View this website on GitHub Pages](https://astromerik.github.io/milestone1/) 
+[View this website on GitHub Pages](https://astromerik.github.io/erik-static-cv/) 
 </div>
 
 ## Testing 

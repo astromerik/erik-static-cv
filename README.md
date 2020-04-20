@@ -1,11 +1,11 @@
 <h1 align="center">
 
-<a href="https://astromerik.github.io/milestone1/" target="_blank"> <img src="assets/images/milestonelogo1.png" alt="Erik logo"></a>  
+<a href="https://astromerik.github.io/erik-static-cv/" target="_blank"> <img src="assets/images/milestonelogo1.png" alt="Erik logo"></a>  
 </h1>
 
 <div align="center">
 
-[View this website on GitHub Pages](https://astromerik.github.io/milestone1/) 
+[View this website on GitHub Pages](https://astromerik.github.io/erik-static-cv/) 
 </div>
 
 A portfolio website whit focus on good UX design. 
